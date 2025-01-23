@@ -173,7 +173,7 @@ class ResumeScreeningSystem:
 def main():
     """Main function to run the resume screening process."""
     API_KEY = os.environ.get('GROQ_API_KEY', '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')
-    RESUME_DIR = r"D:\Lusak.tech\real"  # Update with your resume directory
+    RESUME_DIR = r"D:\Lusak.tech\real"
 
     # Initialize screening system
     screener = ResumeScreeningSystem(API_KEY)
